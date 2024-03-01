@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body {background-image: linear-gradient(#b78ce6,#FFC0CB)}
+           .h4{color: red;
+           	margin-top: 100px;
+           	font-size: x-large;}
+
+		form{
+			font-family: sans-serif;
+			width: 700px;
+			height: 630px;
+			background-color: white;
+			margin-right: -10px;
+			margin-top: -10px; 
+			float: right;}
+				input[ type="password"]{
+					width: 650px;
+					height: 20px;}
+				input[type="email"]{
+					width: 650px;
+					height: 20px;}
+					input[ type="button"]{background-color: red;
+				text-align: center;
+				color: white;
+				width: 650px;}
+
+
+			@media only screen and (max-width: 600px) {
+				body{margin-right: -10px;
+					margin-top: -10px;}
+				.h4{color: red;
+				font-size: x-large;}
+				form{
+					font-family: sans-serif;
+	 	    float: right;
+			position: fixed;}
+			input[ type="password"]{
+					width: 430px;
+					height: 20px;}
+			input[type="email"]{
+					width: 430px;
+					height: 20px;}
+            input[ type="button"]{background-color: red;
+				text-align: center;
+				width: 450px;
+				height: 25px;}
+				}
+
+
+	</style>
+</head>
+<body>
+	<form>
+		<b>
+			<div style="margin-left: 20px">
+		<h4 class="h4">Login Form</h4>
+		<label for="email">Email:</label><br><br>
+		<input type="email" name="email" id="email"><br><br>
+		<label for="password">Password:</label><br><br>
+		<input type="password" name="password" id="password"><br><br>
+		<input type="checkbox" name="Remember">
+		<label>Remember me</label><br><br>
+		<input type="button" name="button" value="Login">
+	</div>
+		</b>
+	</form>
+
+</body>
+</html>
